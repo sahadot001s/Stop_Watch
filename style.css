@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(100, 0, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 7px 1px #000000c2;
+}
+
+#count_number {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn button {
+    padding: 10px 14px;
+    background: #23a9fe;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 0px;
+    cursor: pointer;
+}
